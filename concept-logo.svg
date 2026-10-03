@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="700" viewBox="0 0 720 700">
+  <!--
+    Концепт-лист логотипа «Дом деревьев».
+    Один мотив: два маленьких дерева, держащиеся веточками друг за друга.
+    6 близких вариантов. Чёрный по белому. Без лиц, рук и персонажей.
+  -->
+
+  <!-- ============ Вариант 1: простые треугольные ёлочки, среднее расстояние, короткая веточка ============ -->
+  <g transform="translate(20,20)">
+    <path d="M25 210 C35 170 50 110 66 60 Q69 50 73 60 C88 108 102 168 110 210 Z" fill="#111111"/>
+    <path d="M118 210 C126 172 140 114 154 64 Q157 54 161 64 C174 112 186 172 193 210 Z" fill="#111111"/>
+    <path d="M104 152 Q118 160 128 155" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+    <line x1="12" y1="216" x2="205" y2="216" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ============ Вариант 2: округлые формы, деревья ближе, веточки почти касаются ============ -->
+  <g transform="translate(260,20)">
+    <path d="M20 210 C28 160 40 100 58 58 Q63 46 68 58 C84 98 96 158 104 210 Z" fill="#111111"/>
+    <path d="M108 210 C114 162 124 104 140 62 Q145 50 150 62 C164 102 174 162 180 210 Z" fill="#111111"/>
+    <path d="M101 150 Q108 156 115 151" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+    <line x1="10" y1="216" x2="190" y2="216" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ============ Вариант 3: большее расстояние, соединение дугой веточек ============ -->
+  <g transform="translate(500,20)">
+    <path d="M10 210 L48 60 Q51 50 55 60 L92 210 Z" fill="#111111"/>
+    <path d="M128 210 L165 60 Q168 50 172 60 L210 210 Z" fill="#111111"/>
+    <path d="M84 145 Q109 185 134 145" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="216" x2="220" y2="216" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ============ Вариант 4: две веточки слегка переплетаются ============ -->
+  <g transform="translate(20,300)">
+    <path d="M20 210 C30 168 44 108 62 58 Q66 48 70 58 C86 106 100 166 108 210 Z" fill="#111111"/>
+    <path d="M118 210 C126 170 140 110 156 60 Q160 50 164 60 C178 108 190 168 196 210 Z" fill="#111111"/>
+    <path d="M100 148 Q112 158 124 152" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+    <path d="M124 144 Q112 155 100 150" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+    <line x1="8" y1="216" x2="208" y2="216" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ============ Вариант 5: ступенчатые острые ёлочки, кончики веток почти касаются ============ -->
+  <g transform="translate(250,300)">
+    <path d="M60 40 L70 66 L84 66 L72 90 L92 90 L78 116 L100 116 L84 144 L108 144 L92 174 L114 174 L104 210 L16 210 L8 174 L28 174 L14 144 L38 144 L24 116 L46 116 L32 90 L52 90 L40 66 L52 66 Z" fill="#111111"/>
+    <path d="M160 40 L170 66 L184 66 L172 90 L192 90 L178 116 L200 116 L184 144 L208 144 L192 174 L214 174 L204 210 L116 210 L108 174 L128 174 L114 144 L138 144 L124 116 L146 116 L132 90 L152 90 L140 66 L152 66 Z" fill="#111111"/>
+    <path d="M112 168 Q124 174 136 168" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="216" x2="222" y2="216" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ============ Вариант 6: разная высота деревьев, мягкое касание веточек ============ -->
+  <g transform="translate(500,300)">
+    <path d="M15 210 C24 175 36 125 52 84 Q55 74 59 84 C72 122 84 172 92 210 Z" fill="#111111"/>
+    <path d="M108 210 C118 160 132 90 152 40 Q156 28 161 40 C178 92 192 162 200 210 Z" fill="#111111"/>
+    <path d="M88 150 Q100 158 112 152" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+    <line x1="4" y1="216" x2="210" y2="216" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ============ Текст ============ -->
+  <text x="362" y="660" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" letter-spacing="8" fill="#111111">ДОМ ДЕРЕВЬЕВ</text>
+</svg>

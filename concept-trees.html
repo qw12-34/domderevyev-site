@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Концепт: деревья — Дом деревьев</title>
+  <!--
+    Экспериментальный лист визуальной концепции бренда «Дом деревьев».
+    Автономный файл: не подключает style.css и ничего не меняет в сайте.
+    Только встроенный SVG, без внешних ресурсов.
+  -->
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #26332a;
+      background: #ffffff;
+    }
+    .sheet {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 16px 48px;
+    }
+    .sheet-head {
+      margin-bottom: 28px;
+      border-bottom: 1px solid #dce7dd;
+      padding-bottom: 18px;
+    }
+    .sheet-head h1 {
+      font-size: 1.6rem;
+      margin: 0 0 6px;
+      color: #1e2b22;
+    }
+    .sheet-head p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #5a6a5f;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 20px;
+    }
+    .cell {
+      background: #f6f9f6;
+      border: 1px solid #e2e8e4;
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+    }
+    .cell svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .cell figcaption {
+      margin-top: 12px;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      color: #33523c;
+    }
+    .cell .num {
+      font-weight: bold;
+      color: #2e6b3e;
+    }
+    figure.cell { margin: 0; }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <header class="sheet-head">
+      <h1>Концепт «Дом деревьев»: варианты деревьев</h1>
+      <p>Экспериментальный лист. Простые контурные SVG-рисунки для сравнения. Не является частью сайта.</p>
+    </header>
+
+    <div class="grid">
+
+      <!-- 1. Маленькая ёлочка: простой треугольный силуэт -->
+      <figure class="cell">
+        <svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ёлочка: треугольный силуэт">
+          <path d="M60 18 L88 108 L32 108 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="60" y1="108" x2="60" y2="132" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption><span class="num">1.</span> Маленькая ёлочка — простой треугольный силуэт</figcaption>
+      </figure>
+
+      <!-- 2. Маленькая коническая туя -->
+      <figure class="cell">
+        <svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Коническая туя">
+          <path d="M60 14 C66 45 72 75 74 108 L46 108 C48 75 54 45 60 14 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M52 60 Q60 65 68 60" fill="none" stroke="#2e6b3e" stroke-width="2" stroke-linecap="round"/>
+          <path d="M49 84 Q60 90 71 84" fill="none" stroke="#2e6b3e" stroke-width="2" stroke-linecap="round"/>
+          <line x1="60" y1="108" x2="60" y2="132" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption><span class="num">2.</span> Маленькая коническая туя</figcaption>
+      </figure>
+
+      <!-- 3. Шаровидное деревце -->
+      <figure class="cell">
+        <svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Шаровидное деревце">
+          <path d="M60 34 C86 34 96 52 94 72 C92 92 78 104 60 104 C42 104 28 92 26 72 C24 52 34 34 60 34 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="60" y1="104" x2="60" y2="132" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption><span class="num">3.</span> Шаровидное деревце</figcaption>
+      </figure>
+
+      <!-- 4. Узкий вертикальный можжевельник (Blue Arrow) -->
+      <figure class="cell">
+        <svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Можжевельник Blue Arrow">
+          <path d="M60 10 C64 50 64 90 62 128 L58 128 C56 90 56 50 60 10 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M57 45 L63 50 M57 65 L63 70 M57 85 L63 90 M57 105 L63 110" stroke="#2e6b3e" stroke-width="2" stroke-linecap="round"/>
+          <line x1="60" y1="128" x2="60" y2="140" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption><span class="num">4.</span> Узкий вертикальный можжевельник (тип Blue Arrow)</figcaption>
+      </figure>
+
+      <!-- 5. Маленькое и более высокое дерево рядом -->
+      <figure class="cell">
+        <svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Маленькое и высокое дерево рядом">
+          <path d="M38 70 L56 118 L20 118 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="38" y1="118" x2="38" y2="136" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+          <path d="M88 22 L104 118 L72 118 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="88" y1="118" x2="88" y2="140" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption><span class="num">5.</span> Маленькое и более высокое дерево рядом</figcaption>
+      </figure>
+
+      <!-- 6. Две ёлочки держатся веточками друг за друга -->
+      <figure class="cell">
+        <svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Две ёлочки держатся веточками">
+          <path d="M36 40 L56 112 L16 112 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="36" y1="112" x2="36" y2="134" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+          <path d="M84 40 L104 112 L64 112 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="84" y1="112" x2="84" y2="134" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+          <path d="M52 76 Q60 84 68 76" fill="none" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption><span class="num">6.</span> Две ёлочки держатся веточками друг за друга</figcaption>
+      </figure>
+
+      <!-- 7. Небольшая группа деревьев, идущих вместе -->
+      <figure class="cell">
+        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Группа деревьев идёт вместе">
+          <path d="M26 56 L44 116 L8 116 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round" transform="rotate(-4 26 116)"/>
+          <line x1="26" y1="116" x2="24" y2="136" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+          <path d="M76 36 L96 116 L56 116 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="76" y1="116" x2="76" y2="140" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+          <path d="M126 60 L144 116 L108 116 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round" transform="rotate(4 126 116)"/>
+          <line x1="126" y1="116" x2="128" y2="136" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption><span class="num">7.</span> Небольшая группа деревьев, идущих вместе</figcaption>
+      </figure>
+
+      <!-- 8. Группа деревьев рядом с простым контуром домика -->
+      <figure class="cell">
+        <svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Деревья рядом с домиком">
+          <path d="M130 78 L166 50 L202 78" fill="none" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M136 78 L196 78 L196 128 L136 128 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M158 128 L158 104 L174 104 L174 128" fill="none" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M28 52 L50 118 L6 118 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="28" y1="118" x2="28" y2="136" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+          <path d="M84 64 L102 118 L66 118 Z" fill="#eef4ee" stroke="#2e6b3e" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="84" y1="118" x2="84" y2="136" stroke="#2e6b3e" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <figcaption><span class="num">8.</span> Группа деревьев рядом с простым контуром домика</figcaption>
+      </figure>
+
+    </div>
+  </div>
+</body>
+</html>
