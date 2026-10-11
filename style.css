@@ -95,6 +95,15 @@ img {
   font-size: 1.1rem;
 }
 
+/* ---------- Кнопка MAX ---------- */
+.btn-max {
+  background: #7b3fe4;
+}
+
+.btn-max:hover {
+  background: #682fd0;
+}
+
 /* ---------- Шапка ---------- */
 .site-header {
   position: sticky;
@@ -371,6 +380,41 @@ img {
   background: #1e2b22;
   color: #cfe0d3;
   padding: 28px 0;
+}
+
+.footer-contacts {
+  margin: 12px 0 16px;
+}
+
+/* ---------- Закреплённая панель MAX (только телефон) ---------- */
+.mobile-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  background: #ffffff;
+  border-top: 1px solid #e2e8e4;
+}
+
+.mobile-bar-btn {
+  display: block;
+  width: 100%;
+}
+
+/* На телефоне добавляем отступ снизу, чтобы панель не перекрывала подвал */
+@media (max-width: 639px) {
+  body {
+    padding-bottom: 76px;
+  }
+}
+
+/* На планшете и десктопе панель не нужна */
+@media (min-width: 640px) {
+  .mobile-bar {
+    display: none;
+  }
 }
 
 .site-footer p {
