@@ -322,6 +322,23 @@ img {
   color: #8a5a00;
 }
 
+/* ---------- Фото взрослого растения в карточке ---------- */
+.card-figure {
+  margin: 0 0 14px;
+}
+
+.card-figure .card-photo {
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+
+.card-figure figcaption {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #6b7c70;
+  text-align: center;
+}
+
 .catalog-soon {
   margin-top: 20px;
   color: #5a6a5f;
