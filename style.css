@@ -276,6 +276,52 @@ img {
   color: #1e2b22;
 }
 
+/* ---------- Раскрывающийся блок «Характеристики и уход» ---------- */
+.card-details {
+  margin-bottom: 14px;
+  border: 1px solid #e2e8e4;
+  border-radius: 10px;
+}
+
+.card-details summary {
+  padding: 12px 14px;
+  font-weight: bold;
+  color: #2e6b3e;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card-details summary:hover {
+  color: #265c35;
+}
+
+.card-details[open] summary {
+  border-bottom: 1px solid #e2e8e4;
+}
+
+.card-details-body {
+  padding: 14px;
+  font-size: 0.95rem;
+}
+
+.card-details-body h4 {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+  color: #1e2b22;
+}
+
+.card-details-body p {
+  margin: 0 0 12px;
+}
+
+.card-details-body p:last-child {
+  margin-bottom: 0;
+}
+
+.card-warn {
+  color: #8a5a00;
+}
+
 .catalog-soon {
   margin-top: 20px;
   color: #5a6a5f;
