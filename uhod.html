@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Уход за туями — Дом деревьев</title>
+  <meta name="description" content="Полив, мульчирование, подкормка, обрезка и защита туй от весенних ожогов. Рекомендации питомника «Дом деревьев».">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Дом деревьев</a>
+      <a class="header-phone" href="tel:+79009509500">8 (900) 950-95-00</a>
+      <a class="btn btn-header" href="index.html#order">Заказать звонок</a>
+      <button class="btn btn-header btn-share" id="share-btn" type="button"><svg class="share-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg><span class="share-label">Поделиться</span></button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section">
+      <div class="container">
+        <p><a href="care.html">← К разделу «Уход и болезни»</a></p>
+        <h2>Уход</h2>
+
+        <ul class="features">
+          <li>
+            <h3>Полив</h3>
+            <p>Первый месяц после посадки поливайте регулярно, затем — по мере подсыхания верхнего слоя почвы. Туи не любят застоя воды у корней.</p>
+          </li>
+          <li>
+            <h3>Мульчирование</h3>
+            <p>Лучше всего укрыть приствольный круг агротканью, а сверху присыпать камушками — так сохраняется влага и не растут сорняки. Кору из леса использовать не стоит: в ней могут быть возбудители болезней. Опилки для мульчирования туй не подходят.</p>
+          </li>
+          <li>
+            <h3>Подкормка</h3>
+            <p>Весной подкормите комплексным удобрением для хвойных. Поздним летом и осенью удобрять не нужно — растение должно подготовиться к зиме.</p>
+          </li>
+          <li>
+            <h3>Обрезка</h3>
+            <p>Весной удалите сухие и повреждённые ветви. Формирующую стрижку туи переносят хорошо, её можно делать в течение сезона.</p>
+          </li>
+          <li>
+            <h3>Весенние ожоги</h3>
+            <p>Укрывать туи на зиму нужно, только если на них раньше бывали весенние ожоги. В первые дни весны, когда солнце уже активное, а корни ещё не оттаяли, следите за деревьями: хвоя может начать менять цвет. В этот момент полейте растение горячей водой, чтобы корни быстрее оттаяли. Важно не упустить этот момент, особенно если на ваших деревьях уже бывали весенние ожоги.</p>
+            <div class="placeholder">ФОТО ДОБАВИМ</div>
+          </li>
+        </ul>
+
+        <p class="care-cta">
+          <a class="btn btn-big" href="index.html#order">Оставить заявку</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Дом деревьев</p>
+      <p>Телефон: <a href="tel:+79009509500">8 (900) 950-95-00</a></p>
+      <p>Мессенджер: MAX</p>
+      <p class="footer-contacts">
+        <a class="btn btn-max" href="https://max.ru/u/f9LHodD0cOK1xHYk3BVEBzHaQ3IkVXSgkp4QbpnWPIUN-LcAGlpJbOZgtnU" target="_blank" rel="noopener">Написать в MAX</a>
+      </p>
+      <p>Политика конфиденциальности: ДОБАВИМ</p>
+      <p class="footer-copy">Дом деревьев, 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('share-btn');
+      if (!btn) return;
+      var label = btn.querySelector('.share-label') || btn;
+      var originalText = label.textContent;
+      btn.addEventListener('click', function () {
+        var shareData = {
+          title: document.title,
+          text: document.title,
+          url: location.href
+        };
+        if (navigator.share) {
+          navigator.share(shareData).catch(function () {});
+        } else if (navigator.clipboard) {
+          navigator.clipboard.writeText(location.href).then(function () {
+            label.textContent = 'Ссылка скопирована';
+            setTimeout(function () { label.textContent = originalText; }, 2000);
+          });
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>

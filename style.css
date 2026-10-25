@@ -154,6 +154,30 @@ img {
   margin-right: 6px;
 }
 
+/* ---------- Раздел «Уход и болезни туй» ---------- */
+.care-figure {
+  max-width: 360px;
+  margin: 16px 0 28px;
+}
+
+.care-figure svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #e2e8e4;
+  border-radius: 10px;
+}
+
+.care-figure figcaption {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #5f7366;
+}
+
+.care-cta {
+  margin-top: 28px;
+}
+
 /* ---------- Первый экран ---------- */
 .hero {
   padding: 36px 0 44px;

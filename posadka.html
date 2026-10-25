@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Посадка туй — Дом деревьев</title>
+  <meta name="description" content="Как правильно посадить тую из контейнера: увлажнение, лунка, глубина посадки. Рекомендации питомника «Дом деревьев».">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Дом деревьев</a>
+      <a class="header-phone" href="tel:+79009509500">8 (900) 950-95-00</a>
+      <a class="btn btn-header" href="index.html#order">Заказать звонок</a>
+      <button class="btn btn-header btn-share" id="share-btn" type="button"><svg class="share-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.7" x2="15.4" y2="6.3"/><line x1="8.6" y1="13.3" x2="15.4" y2="17.7"/></svg><span class="share-label">Поделиться</span></button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section">
+      <div class="container">
+        <p><a href="care.html">← К разделу «Уход и болезни»</a></p>
+        <h2>Посадка</h2>
+
+        <ol class="steps">
+          <li>
+            <h3>Увлажните дерево</h3>
+            <p>За 1–2 часа до посадки хорошо пролейте растение прямо в контейнере, чтобы земляной ком пропитался влагой.</p>
+          </li>
+          <li>
+            <h3>Выньте из контейнера</h3>
+            <p>Аккуратно извлеките растение из контейнера, стараясь не разрушить земляной ком.</p>
+          </li>
+          <li>
+            <h3>Выкопайте и промочите лунку</h3>
+            <p>Лунка должна быть шире земляного кома. Перед посадкой обильно промочите её водой.</p>
+          </li>
+          <li>
+            <h3>Следите за глубиной</h3>
+            <p>Сажайте так, чтобы верх земляного кома был на уровне земли — не глубже. Если заглубить корневую шейку, дерево может погибнуть.</p>
+          </li>
+        </ol>
+        <figure class="care-figure">
+          <svg viewBox="0 0 320 220" role="img" aria-label="Схема посадки: корневая шейка на уровне земли">
+            <polygon points="160,25 125,105 195,105" fill="#2e6b3e"/>
+            <rect x="157" y="100" width="6" height="42" fill="#6b4a2f"/>
+            <rect x="0" y="140" width="320" height="80" fill="#c9b18c"/>
+            <rect x="112" y="136" width="96" height="62" rx="10" fill="#a98e66"/>
+            <rect x="136" y="138" width="48" height="42" rx="6" fill="#7a5a3a"/>
+            <line x1="0" y1="140" x2="320" y2="140" stroke="#c0392b" stroke-width="2" stroke-dasharray="7 5"/>
+            <circle cx="160" cy="140" r="4" fill="#c0392b"/>
+            <text x="10" y="132" font-size="12" fill="#c0392b">Уровень земли</text>
+            <text x="176" y="152" font-size="12" fill="#c0392b">Корневая шейка</text>
+            <text x="10" y="210" font-size="11" fill="#5f7366">Верх земляного кома — не глубже красной линии</text>
+          </svg>
+          <figcaption>Правильная глубина посадки: корневая шейка на уровне земли</figcaption>
+        </figure>
+
+        <p class="care-cta">
+          <a class="btn btn-big" href="index.html#order">Оставить заявку</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Дом деревьев</p>
+      <p>Телефон: <a href="tel:+79009509500">8 (900) 950-95-00</a></p>
+      <p>Мессенджер: MAX</p>
+      <p class="footer-contacts">
+        <a class="btn btn-max" href="https://max.ru/u/f9LHodD0cOK1xHYk3BVEBzHaQ3IkVXSgkp4QbpnWPIUN-LcAGlpJbOZgtnU" target="_blank" rel="noopener">Написать в MAX</a>
+      </p>
+      <p>Политика конфиденциальности: ДОБАВИМ</p>
+      <p class="footer-copy">Дом деревьев, 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('share-btn');
+      if (!btn) return;
+      var label = btn.querySelector('.share-label') || btn;
+      var originalText = label.textContent;
+      btn.addEventListener('click', function () {
+        var shareData = {
+          title: document.title,
+          text: document.title,
+          url: location.href
+        };
+        if (navigator.share) {
+          navigator.share(shareData).catch(function () {});
+        } else if (navigator.clipboard) {
+          navigator.clipboard.writeText(location.href).then(function () {
+            label.textContent = 'Ссылка скопирована';
+            setTimeout(function () { label.textContent = originalText; }, 2000);
+          });
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>
