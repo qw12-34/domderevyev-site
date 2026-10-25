@@ -139,6 +139,21 @@ img {
   font-size: 0.95rem;
 }
 
+.btn-share {
+  color: #2e6b3e;
+  background: #ffffff;
+  border: 1px solid #2e6b3e;
+}
+
+.btn-share:hover {
+  background: #eef4ee;
+}
+
+.share-icon {
+  vertical-align: -2px;
+  margin-right: 6px;
+}
+
 /* ---------- Первый экран ---------- */
 .hero {
   padding: 36px 0 44px;
