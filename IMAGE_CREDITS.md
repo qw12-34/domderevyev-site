@@ -15,6 +15,15 @@
 - Атрибуция: фото Tatiana Markina, Wikimedia Commons, лицензия CC BY-SA 4.0
 - Изменения: использована уменьшенная копия шириной 960 px, остальное не изменялось
 
+## images/luboed.png — Туевый лубоед (Phloeosinus thujae)
+
+- Автор: Udo Schmidt
+- Название/описание: «Phloeosinus thujae (Perris, 1865)» — жук туевого лубоеда
+- Источник: https://commons.wikimedia.org/wiki/File:Phloeosinus_thujae_(Perris,_1865)_(10983480533).png
+- Лицензия: CC BY-SA 2.0
+- Атрибуция: фото Udo Schmidt, Wikimedia Commons, лицензия CC BY-SA 2.0
+- Изменения: использована уменьшенная копия шириной 960 px, остальное не изменялось
+
 ## images/smaragd-adult.jpg — Туя Смарагд, пример взрослого растения
 
 - Автор: David J. Stang
