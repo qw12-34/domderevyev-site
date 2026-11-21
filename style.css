@@ -653,3 +653,42 @@ img.card-photo,
 img.gallery-item {
   cursor: zoom-in;
 }
+
+/* ---------- Видео в галерее карточки ---------- */
+.video-tile {
+  position: relative;
+  display: block;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.video-tile-preview {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.video-tile-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  font-size: 20px;
+  line-height: 44px;
+  text-align: center;
+  padding-left: 3px;
+}
+
+.video-lightbox-player {
+  width: min(92vw, 405px);
+  height: min(86vh, 720px);
+  aspect-ratio: 9 / 16;
+}
